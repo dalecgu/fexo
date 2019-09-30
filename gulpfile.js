@@ -28,7 +28,6 @@ gulp.task("scripts", function() {
     "./source/js/scroll-spy.js",
     "./source/js/zenscroll.js",
     "./source/js/util.js",
-    "./source/js/config.js",
     "./source/js/app.js"
   ];
 

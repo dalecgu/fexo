@@ -8,7 +8,7 @@
  */
 hexo.on('generateBefore', function () {
   var data = hexo.locals.get('data');
-  data && data.fexo && assign(hexo.theme, data.fexo);
+  data && data.fexo && assign(hexo.theme.config, data.fexo);
 });
 
 // https://github.com/sindresorhus/object-assign
